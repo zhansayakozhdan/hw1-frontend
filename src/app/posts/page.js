@@ -6,7 +6,7 @@ export default function Posts () {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/data/data.json')
+        fetch('https://hw1-front-ten.vercel.app/data/data.json')
             .then((response) => response.json())
             .then((data) => setPosts(data))
             .catch((error) => console.error('Error fetching the JSON:', error));
