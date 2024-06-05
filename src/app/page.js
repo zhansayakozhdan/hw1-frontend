@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="bg-white flex min-h-screen flex-col items-center md:p-24 py-10 px-4">
       <div className="text-center w-full mx-auto">
-        <h1 className="text-6xl font-bold mb-2">Let's GO!</h1>
+        <h1 className="text-6xl font-bold mb-2">Let&apos;s GO!</h1>
         <p className="text-xl">Воплоти свою идею в реальность вместе с nFactorial!</p>
 
         <div className="lg:mt-0 lg:flex-shrink-0">
